@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+/* Index */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+h1 {
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  background-color: rgb(223, 224, 217);
+
+}
+.index{
+    background-color:#ffffff
+}
+.index p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2 {
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 2rem;
+padding-top: 50px;
+margin-bottom: 20px;
+display: block;
+margin-block-start: 0.83em; 
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.main-header {
+    background-color: #0081a7;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.nav-links button {
+    background-color: rgb(255, 255, 255);
+    color: #168aad;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 10px; /* Espacio entre los botones */
+    cursor: pointer;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    height: auto;
+    max-width:1000;
+    display: block;
+    margin: auto;
+
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #e9ecef;
+}
+
+.aboutUsContent {
+    flex: 1; /* Hace que ocupe todo el espacio disponible */
+    padding: 0 20px; /* Añade espaciado horizontal alrededor del contenido */
+    flex-direction: flex-end;
+}
+.image-logo-dos {
+    flex-shrink: 0; /* Evita que la imagen se reduzca para ajustarse al contenido */
+    margin-left: 20px; /* Añade espacio entre la imagen y el contenido de texto */
+}
+
+.image-logo-dos img {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px; /* Ajusta el ancho del contenido si es necesario */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+/* Login*/
+
+.login{
+    background-color: #000000;
+}
+
+.login p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.login h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+#loginbutton{
+    background-color:#0000ff;
+    padding: 10px 20px;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-form{
+    color: white;
+}
+
+.elemento {
+    margin-bottom: 15px;
+    color:rgb(0, 0, 0);
+  
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me label {
+    margin-left: 5px; /* */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+/* explora */
+
+.explora{
+    background-color:#ffffff
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.explora h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-header {
+    background-color: #0081a7;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav-links button {
+    background-color: rgb(255, 255, 255);
+    color: #168aad;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 10px; /* Espacio entre los botones */
+    cursor: pointer;
+}
+
+.navExplora{
+    overflow:hidden;
+    margin-top:10px ;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color:#168aad
+    
+}
+
+.navtres{
+    float:left;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#4ea8de
+    }
+    
+
+.margen{
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.explore {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.imgexplore {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    background-color: #cfccccf0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgexplore img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-content h2 {
+    font-size: 24px;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-content a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    color: #000;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.explore-section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.explore-article {
+    width: calc(33.33% - 20px);
+}
+
+.explore-article img {
+    width: 100%;
+    height: auto;
+   
+}
+
+/* comunidad */
+
+.comunidad{
+    background-color: #000;
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.user-list {
+    width: 200px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.user-list h2 {
+    margin-bottom: 10px;
+}
+
+.user-list-items {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list-item {
+    margin-bottom: 5px;
+    color: white;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.chat-area {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.message {
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.message-form {
+    display: flex;
+
+}
+
+#messageInput {
+    flex: 1;
+    padding: 30px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#sendMessageButton {
+    padding: 5px 10px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/*Interactua*/
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap:20px ;
+}
+
+/* Estilos del aside de retos */
+
+.retos-section {
+    width: 200px;
+}
+
+.retos-aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.retos-title {
+    margin-bottom: 10px;
+}
+
+.retos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.retos-item {
+    margin-bottom: 5px;
+}
+
+.product span {
+    background-color: rgb(196, 70, 70);
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: -10px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="login">
+    <header class="main-header">
+        <div class="logo">
+            MYDEVS
+        </div>
+        <div class="nav-links">
+            <button>About Us</button>
+            <a href="htmls/login.html">
+                <button>Iniciar Sesión</button>
+            </a>
+        </div>
+    </header>
+    <main>
+    <div class="contenedor">
+        <div class="imagen">
+            <img src="..\images\mydevslogo.jpg" alt="">
+        </div>
+        <div class="formulario">
+            <h2 class="text-form">Sign in</h2>
+            <form id="forma" name="forma" method="post">
+                <div class="elemento">
+                    <label class="text-form"  for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario" required="TRUE"/> 
+                </div>
+                <div class="elemento">
+                    <label class="text-form"  for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required="TRUE"/> 
+                </div>
+
+            </form>
+            <a href="../htmls/explora.html">
+                <button id="loginbutton">Iniciar Sesión</button>
+            </a>
+            <div class="elemento remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label  class="text-form" for="remember">Remember me</label>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-content">
+        <p>Contacto: example@example.com</p>
+        <p>Teléfono: 123-456-7890</p>
+    </div>
+</footer>
+</body>
+</html>
+
